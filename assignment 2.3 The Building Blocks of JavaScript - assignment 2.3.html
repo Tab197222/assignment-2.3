@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>(Roll for Gold) assignment 2.3</title> <!-- title of the page -->
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="assignment 2.3.css">
+</head>
+
+<body>
+
+    <h1>Roll for Gold</h1>
+    <p>Enter your name and roll to win your Gold!</p>
+
+    <!-- Form that calls playGame() -->
+    <form onsubmit="playGame(); return false;">
+        <label for="playerName">Player Name:</label>
+        <input type="text" id="playerName" name="playerName" required>
+        <button type="submit">to play the game</button>
+    </form>
+
+    <!-- These MUST exist or nothing will show -->
+       <div id="output"></div>
+
+
+    <!-- Link to your JavaScript file -->
+    <script src="assignment 2.3.js"></script>
+
+
+</body>
+</html>
